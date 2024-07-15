@@ -262,3 +262,17 @@ main > section {
 .sponsor-brand-logos img:hover {
   filter: grayscale(0);
 }
+
+/* footer */
+footer{
+    max-width: 1440px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    margin-block: 100px 40px;
+    border-radius: 8px;
+
+background: rgb(255, 244, 231);
+}
+.footer-p{
+    text-align: center;
+}
