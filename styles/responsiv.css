@@ -69,6 +69,15 @@
     gap: 30px;
     padding: 20px 0px;
   }
+
+  /* our sponsor */
+  .sponsor-brand-logos{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-block: 40px 20px;
+  }
+
 }
 
 /* mediam divaise */
@@ -101,5 +110,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 20px 0px;
+  }
+  /* our sponsor */
+  .sponsor-brand-logos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+   justify-items: center;
   }
 }

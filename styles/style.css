@@ -208,12 +208,11 @@ main > section {
 .some-facts > p {
   width: 540px;
   padding-block: 20px;
-  
 }
 .facts-container {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
   padding: 50px 20px;
   text-align: center;
 }
@@ -231,12 +230,35 @@ main > section {
   letter-spacing: 0%;
   margin-block: 10px;
 }
-.facts-container .fact-item h4{
-    color: rgb(114, 114, 114);
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-   
+.facts-container .fact-item h4 {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
+
+/* our sponsor section */
+.sponsor-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.sponsor-brand-logos {
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 90px;
+  transition: 0.5s;
+}
+.sponsor-brand-logos img {
+  filter: grayscale(1);
+  cursor: pointer;
+}
+.sponsor-brand-logos img:hover {
+  filter: grayscale(0);
 }
