@@ -14,41 +14,52 @@
 .title-color {
   color: rgb(19, 19, 19);
 }
-.paragraph-color {
+.description {
   color: rgb(114, 114, 114);
   font-family: Work Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
 }
 .bg-light {
-    background: rgba(255, 144, 14, 0.1);
+  background: rgba(255, 144, 14, 0.1);
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  padding: 1.1rem 1.3rem;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 144, 14);
 }
 
-
 /* header style */
-header{
-    
+header {
 }
 /* navber styles */
 .navber {
-    max-width: 1440px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 .brand-name a {
   text-decoration: none;
   font-family: Work Sans;
-  font-size: 45px;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 53px;
   letter-spacing: 0%;
 }
+.nav-links{
+    gap: 20px;
+}
 .nav-item {
-  margin-right: 20px;
   list-style: none;
   justify-content: space-between;
   align-items: center;
@@ -58,8 +69,34 @@ header{
   font-weight: 500;
   color: rgb(66, 66, 66);
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0%;
+}
+
+/* banner releted style */
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0%;
+}
+.banner-image{
+    width: 100%;
+    height: auto;
 }
