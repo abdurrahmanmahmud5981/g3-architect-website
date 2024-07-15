@@ -37,6 +37,29 @@
   .out-features {
     margin-left: 0px;
   }
+
+  /* feature-enjoy */
+  .feature-enjoy{
+    flex-direction: column;
+  }
+
+  .feature-enjoy-image,
+  .feature-enjoy-content{
+    width: 100%;
+  }
+  .feature-enjoy-image img{
+    width: 100%;
+    margin: 0;
+  }
+  .feature-enjoy-image p{
+    width: 150px;
+    height: 85px;
+    padding: 10px;
+    gap: 8px;
+  }
+  .feature-enjoy-image p span{
+    font-size: 2rem;
+  }
 }
 
 /* mediam divaise */
@@ -48,5 +71,17 @@
   .out-features {
     max-width: 100%;
     margin-left: 0px;
+  }
+  /* featur enjoy */
+  .feature-enjoy{
+    flex-direction: column;
+  }
+  .feature-enjoy-image,
+  .feature-enjoy-content{
+    width: 100%;
+  }
+  .feature-enjoy-image img{
+    width: 100%;
+    margin: 0;
   }
 }
